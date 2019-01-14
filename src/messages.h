@@ -89,6 +89,10 @@
 # define MESSAGES_LOCALE "ca_ES"
 # include "messages_ca_es.h"
 
+#elif defined(MESSAGES_JA)
+# define MESSAGES_LOCALE "ja_JP"
+# include "messages_ja.h"
+
 #else
 # define MESSAGES_LOCALE "en_GB"
 # include "messages_en.h"
@@ -96,6 +100,7 @@
 #  define MESSAGES_EN 1
 # endif
 #endif
+
 
 /* Favor paranoia over help for sysadmin */
 #ifdef PARANOID_MESSAGES
