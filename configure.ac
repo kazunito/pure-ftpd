@@ -883,7 +883,7 @@ AC_ARG_WITH(everything,
 
 AC_ARG_WITH(language,
 [AS_HELP_STRING(--with-language=,< english | albanian | german | romanian | french |
-french-funny | polish | spanish | danish | dutch | italian |
+french-funny | polish | spanish | danish | dutch | italian | japanese |
 brazilian-portuguese | slovak | korean | swedish | norwegian | russian |
 traditional-chinese | simplified-chinese | czech | turkish | hungarian |
 catalan>)],
@@ -909,6 +909,8 @@ catalan>)],
     AC_DEFINE(MESSAGES_NL,,[dutch])
   elif test "x$withval" = "xitalian" ; then
     AC_DEFINE(MESSAGES_IT,,[italian])
+  elif test "x$withval" = "xjapanese" ; then
+    AC_DEFINE(MESSAGES_JA,,[japanese])
   elif test "x$withval" = "xbrazilian-portuguese" ; then
     AC_DEFINE(MESSAGES_PT_BR,,[brazilian portuguese])
   elif test "x$withval" = "xslovak" ; then

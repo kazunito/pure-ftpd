@@ -154,6 +154,7 @@ mode. It can be way slower in inetd mode.
 --with-language=spanish
 --with-language=danish
 --with-language=italian
+--with-language=japanese
 --with-language=brazilian-portuguese
 --with-language=slovak
 --with-language=dutch 
